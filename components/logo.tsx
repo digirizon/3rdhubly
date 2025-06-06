@@ -11,7 +11,7 @@ export const Logo = ({
     className
 }: LogoProps) => {
     return (
-        <div className={cn("cursor-pointer font-bold text-5xl" && className)}>
+        <div className={cn("cursor-pointer font-bold text-5xl", className)}>
             <span className="text-red-500">s</span>
             <span className="text-blue-500">k</span>
             <span className="text-green-500">u</span>
